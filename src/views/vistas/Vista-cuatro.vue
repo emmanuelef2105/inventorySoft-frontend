@@ -1,5 +1,5 @@
 <template>
-  <div class="vista2">
+  <div class="vista4">
     <Navbar/>
     <div class="contenido">
       <Menu />
@@ -15,7 +15,7 @@ import Tabla2 from '@/components/Tablas/Tabla2'
 
 
 export default {
-  name: 'Vista-dos',
+  name: 'Vista-cuatro',
   components: {
    Navbar, Menu, Tabla2
   }

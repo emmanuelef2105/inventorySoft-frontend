@@ -15,7 +15,7 @@
                 <h2 class="fw-bold text-center pt-5 mb-5">Ingresar al Sistema de Gestión de Inventario</h2>
 
                 <!-- Validación de credenciales / Formulario de acceso o Login -->
-                <form action="#/productos">
+                <form action="#/auproductos">
                     <div class="mb-4">
                         <label for="email" class="form-label">Correo electrónico</label>
                         <input type="email" class="form-control" name="email">

@@ -1,9 +1,9 @@
 <template>
   <div class="vista ">
     <Navbar/>
-    <div class="row align-items contenido">
-      <Menu class="col-md-1"/>
-      <Tabla2 class="col-md-11"/>
+    <div class="contenido">
+      <Menu />
+      <Tabla2 />
     </div>
   </div>
 </template>
@@ -24,11 +24,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-.contenido{
-  margin-top:30px;
-}
-.col-md-1, .col-md-11{
-  padding:0;
-}
+
+
 
 </style>

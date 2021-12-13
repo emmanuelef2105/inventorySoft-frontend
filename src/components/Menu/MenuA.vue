@@ -17,22 +17,12 @@ export default {
                 {
                     label: 'Productos',
                     icon: 'pi pi-fw pi-box',
-                    to: '@/'
+                    to: '@/auproductos'
                 },
                 {
                     label: 'Compras',
                     icon: 'pi pi-fw pi-shopping-cart',
-                    to: '@/vista2'
-                },
-                {
-                    label: 'Ventas',
-                    icon: 'pi pi-fw pi-briefcase',
-                    to: '@/vista3'
-                },
-                {
-                    label: 'Usuarios',
-                    icon: 'pi pi-fw pi-user',
-                    to: '@/vista4'
+                    to: '@/aucompras'
                 },
             ],
            
