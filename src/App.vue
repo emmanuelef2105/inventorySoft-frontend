@@ -1,11 +1,5 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/registro">Registro</router-link> |
-    <router-link to="/loguin">Loguin</router-link> |
-    <router-link to="/vista">Vista-uno</router-link> |
-    <router-link to="/vista2">Vista-dos</router-link>
   </div>
   <router-view/>
 </template>
@@ -20,7 +14,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 0px;
 }
 
 #nav a {

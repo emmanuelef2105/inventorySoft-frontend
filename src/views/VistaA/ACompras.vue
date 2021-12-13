@@ -1,27 +1,26 @@
 <template>
-  <div class="vista2">
+  <div class="acompras">
     <Navbar/>
-    <div class="contenido">
-      <Menu />
-      <Tabla2 />
+    <div>
+      <MenuAd />
+      <Compras />
     </div>
   </div>
 </template>
-
+ 
 <script>
 import Navbar from '@/components/Navbar.vue'
-import Menu from '@/components/Menu.vue'
-import Tabla2 from '@/components/Tablas/Tabla2'
-
-
+import MenuAd from '@/components/Menu/MenuAd.vue'
+import Compras from '@/components/Administrador/Compras.vue'
+ 
 export default {
-  name: 'Vista-dos',
+  name: 'acompras',
   components: {
-   Navbar, Menu, Tabla2
+   Navbar, MenuAd, Compras
   }
 }
 </script>
-
+ 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 

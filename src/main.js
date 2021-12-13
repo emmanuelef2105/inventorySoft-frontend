@@ -16,6 +16,7 @@ import RadioButton  from 'primevue/radiobutton';
 import InputNumber from 'primevue/inputnumber';
 import Sidebar from 'primevue/sidebar';
 import PanelMenu from 'primevue/panelmenu';
+import TabMenu from 'primevue/tabmenu';
 
 import './styles/styles.scss'
 
@@ -37,3 +38,4 @@ app.component('RadioButton', RadioButton);
 app.component('InputNumber', InputNumber);
 app.component('Sidebar', Sidebar );
 app.component('PanelMenu', PanelMenu );
+app.component('TabMenu', TabMenu );

@@ -1,18 +1,18 @@
 <template>
-  <div class="loguin">
+  <div class="loguina">
     <Navbarl/>
-    <Login/>
+    <LoginAu/>
   </div>
 </template>
 
 <script>
 import Navbarl from '@/components/Navbarl.vue'
-import Login from '@/components/Login.vue'
+import LoginAu from '@/components/Login/LoginAu.vue'
 
 export default {
-  name: 'Loguin',
+  name: 'Loguina',
   components: {
-   Navbarl, Login,
+   Navbarl, LoginAu,
   }
 }
 </script>
